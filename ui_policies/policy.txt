@@ -1,0 +1,31 @@
+Click on all>> search for service catalog 
+
+Select maintain item under catalog definition
+
+Search for ‘laptop request’ which is created before
+
+Select ‘laptop request’ and scroll down click on “Catalog Ui policies”
+
+In the catalog ui policies related list tab click on new 
+
+Give short description as: show accessories details
+
+Set the Catalog Condition in the related list tab ‘when to apply’ 
+
+                  [field: additional_ accessories, operator: is, value: true]
+Click on save.(do not click on submit)
+
+Scroll down and select ‘catalog ui action’
+
+Then click on new button
+
+Select variable name as: accessories_details
+
+                              Order:100
+
+                    Mandatory: True
+
+                         Visible : True
+
+
+Click on save and again click save button of the catalog ui policy form
