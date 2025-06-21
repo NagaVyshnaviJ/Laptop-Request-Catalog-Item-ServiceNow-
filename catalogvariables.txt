@@ -1,0 +1,31 @@
+# 📝 Catalog Item: Laptop Request
+
+## 📌 Description
+This catalog item allows employees to request a new laptop for official use. It is part of the IT Service Catalog in ServiceNow and provides a guided, interactive form with dynamic behavior to improve data accuracy and processing speed.
+
+## 🎯 Objectives
+- Automate the manual laptop request process
+- Provide a user-friendly form with conditional logic
+- Collect necessary justification and accessory information
+- Ensure consistent and trackable data for IT provisioning
+
+## 🔄 Functional Behavior
+- If **Additional Accessories** is checked, the field **Accessories Details** is shown.
+- Form fields are dynamically shown/hidden using UI Policy or Client Script.
+- All requests are captured for future tracking and approval workflows.
+# 🔧 Catalog Item Variables
+
+Below is a list of variables used in the **Laptop Request** catalog item, along with their configuration details.
+
+| Order | Variable Label         | Type              | Name                    | Mandatory | Description                                    |
+|-------|------------------------|-------------------|-------------------------|-----------|------------------------------------------------|
+| 100   | Laptop Model           | Single Line Text  | laptop_model            | Yes       | Model or type of laptop requested              |
+| 200   | Justification          | Multi Line Text   | justification           | Yes       | Why the employee needs a new laptop            |
+| 300   | Additional Accessories | Checkbox          | additional_accessories  | No        | Checkbox to indicate if accessories are needed |
+| 400   | Accessories Details    | Multi Line Text   | accessories_details     | No        | Shown only if accessories are requested        |
+
+## 🧠 Notes
+- UI Policy or Catalog Client Script is used to dynamically show `accessories_details` based on the checkbox.
+- These variables appear in the order defined above on the Service Catalog form.
+- The "Name" field should not be changed once used in logic/scripts.
+
