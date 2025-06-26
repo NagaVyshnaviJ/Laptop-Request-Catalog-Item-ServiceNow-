@@ -51,8 +51,8 @@ To test this project on your own PDI:
 ## 👩‍💻 Team Members
 
 - Vyshnavi Jayanthi – Developer & Designer
-- Naga HarshaSree - Supported
-- Nazeeb - Supporter
+- Naga HarshaSree
+- Nazeeb 
 
 ---
 
