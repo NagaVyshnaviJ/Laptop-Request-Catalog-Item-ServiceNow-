@@ -1,10 +1,10 @@
-# 💻 ServiceNow Laptop Request Catalog Item
+#  ServiceNow Laptop Request Catalog Item
 
 This project is a ServiceNow Catalog Item called **Laptop Request**, built on a PDI (Personal Developer Instance). It allows employees to request laptops with clear dynamic fields and guided form behavior.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Easy-to-use form with dynamic fields
 - Option to request additional accessories
@@ -14,7 +14,7 @@ This project is a ServiceNow Catalog Item called **Laptop Request**, built on a 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 | Folder                  | Purpose |
 |-------------------------|---------|
@@ -26,7 +26,7 @@ This project is a ServiceNow Catalog Item called **Laptop Request**, built on a 
 
 ---
 
-## 🧪 Variables Used
+##  Variables Used
 
 | Label                  | Type             | Name                     | Order |
 |------------------------|------------------|---------------------------|--------|
@@ -37,7 +37,7 @@ This project is a ServiceNow Catalog Item called **Laptop Request**, built on a 
 
 ---
 
-## 🔁 Import Instructions
+##  Import Instructions
 
 To test this project on your own PDI:
 
@@ -48,7 +48,7 @@ To test this project on your own PDI:
 
 ---
 
-## 👩‍💻 Team Members
+##  Team Members
 
 - Vyshnavi Jayanthi – Developer & Designer
 - Naga HarshaSree
@@ -56,7 +56,7 @@ To test this project on your own PDI:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 !![WhatsApp Image 2025-06-21 at 10 01 58_944e2c71](https://github.com/user-attachments/assets/a444b9d6-5cad-4fae-8ac1-9aeed382fa4d)
 ![WhatsApp Image 2025-06-21 at 10 02 22_bcc7f91e](https://github.com/user-attachments/assets/dcb05afa-96f7-4ad6-8874-c75b0d2456da)
@@ -67,7 +67,7 @@ To test this project on your own PDI:
 
 ---
 
-## 📜 License
+##  License
 
 This is a sample project for learning purposes. Feel free to modify and use it in your own PDI!
 
